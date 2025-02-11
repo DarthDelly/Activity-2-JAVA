@@ -1,0 +1,25 @@
+// Sunshine Seashore Supllies rents beach equipment such as kayaks, canoes, beach chairs and umbrellas to tourists. Write a program thats prompts the user for the number of
+// minutes the user rented a piece of sports equipment. Compute the rental cost as $40 per hour plus $1 per additional minute. (You might have surmised already
+// that this rate has a logical flaw, but for now,  calculate rates as described here. you can fix the problem after you learn about decision making), Display Sunshine's
+// motto in GUI. Then display the hours, minutes and total price. Save the file as LastnameActivity2.java.
+
+// cost = 40
+// add = 1  
+
+import javax.swing.*; 
+
+   public class FLORESActivity2
+   {
+      public static void main(String[] args)
+      {
+      JOptionPane.showMessageDialog(null, "Sunshin Seashore Supplies");
+      JOptionPane.showMessageDialog(null, "Rent Sports Equipment." + "/n" + "Kayaks" + "/n" + "Canoes" + "/n" + "Beach Chairs" + "/n" + "Umbrella" + "/n" + "Per Item to rent is $40 per hour" + "/n" + "additional $1 per minute borrowed");
+      
+      String rents = JOptionPane.showInputDialog("Number of equipments borrowed: ");
+      
+      int cost = 40 * rents;
+      int add = 1 + cost;
+      
+      JOptionPane.showMessageDialog(null, "Total rented equiment: " + rents + "/n" + "Total hours rented: " + cost + "/n" + "Total cost with $1 additional: " + add);
+      }
+   }
