@@ -13,7 +13,9 @@ import javax.swing.*;
       public static void main(String[] args)
       {
       JOptionPane.showMessageDialog(null, "Sunshin Seashore Supplies");
-      JOptionPane.showMessageDialog(null, "Rent Sports Equipment." + "/n" + "Kayaks" + "/n" + "Canoes" + "/n" + "Beach Chairs" + "/n" + "Umbrella" + "/n" + "Per Item to rent is $40 per hour" + "/n" + "additional $1 per minute borrowed");
+      JOptionPane.showMessageDialog(null, "Rent Sports Equipment." + "/n" + "Kayaks" + "/n"
+      + "Canoes" + "/n" + "Beach Chairs" + "/n" + "Umbrella" + "/n" + "Per Item to rent is $40 per hour" 
+      + "/n" + "additional $1 per minute borrowed");
       
       String rents = JOptionPane.showInputDialog("Number of equipments borrowed: ");
       
